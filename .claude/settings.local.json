@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git branch:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:iabtechlab.com)",
+      "WebSearch",
+      "WebFetch(domain:support.google.com)"
     ],
     "deny": [],
     "ask": []
