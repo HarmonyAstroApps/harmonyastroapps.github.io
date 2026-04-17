@@ -1,0 +1,8 @@
+# robots.txt for harmonyastroapps.github.io
+# All search engines and AI crawlers are welcome
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://harmonyastroapps.github.io/sitemap.xml
+Sitemap: https://harmonyastroapps.github.io/voice-calculator/sitemap.xml

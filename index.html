@@ -3,37 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HarmonyAstroApps</title>
+    <title>HarmonyAstroApps - Thoughtful iOS Apps for Everyday Life</title>
+    <meta name="description" content="HarmonyAstroApps builds thoughtful iOS apps that make everyday tasks easier. Discover Voice Calculator and more hands-free utility apps for iPhone and iPad.">
+    <meta name="keywords" content="HarmonyAstroApps, iOS apps, iPhone apps, iPad apps, Voice Calculator, utility apps, indie developer, App Store">
+    <meta name="author" content="HarmonyAstroApps">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://harmonyastroapps.github.io/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="HarmonyAstroApps">
+    <meta property="og:title" content="HarmonyAstroApps - Thoughtful iOS Apps for Everyday Life">
+    <meta property="og:description" content="Discover thoughtfully-built iOS apps, including Voice Calculator \u2014 the hands-free calculator for iPhone and iPad.">
+    <meta property="og:url" content="https://harmonyastroapps.github.io/">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="HarmonyAstroApps - Thoughtful iOS Apps">
+    <meta name="twitter:description" content="Discover thoughtfully-built iOS apps, including Voice Calculator \u2014 the hands-free calculator for iPhone and iPad.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HarmonyAstroApps",
+      "url": "https://harmonyastroapps.github.io/",
+      "email": "harmonyastroapp@gmail.com",
+      "description": "HarmonyAstroApps builds thoughtful iOS apps that make everyday tasks easier.",
+      "sameAs": [
+        "https://github.com/HarmonyAstroApps"
+      ]
+    }
+    </script>
+
     <style>
+        :root {
+            --primary: #667eea;
+            --primary-dark: #5568d3;
+            --accent: #764ba2;
+            --bg: #ffffff;
+            --bg-alt: #f7f8fc;
+            --text: #1f2937;
+            --text-muted: #6b7280;
+            --card: #ffffff;
+            --border: rgba(0,0,0,0.08);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #8b9dff;
+                --primary-dark: #667eea;
+                --accent: #a78bfa;
+                --bg: #0f1115;
+                --bg-alt: #161821;
+                --text: #f9fafb;
+                --text-muted: #9ca3af;
+                --card: #1c1e24;
+                --border: rgba(255,255,255,0.08);
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+        header {
+            padding: 80px 0 60px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
             color: white;
         }
-        .container {
-            text-align: center;
-            padding: 2rem;
-        }
-        h1 {
+        header h1 {
             font-size: 3rem;
-            margin-bottom: 1rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
         }
-        p {
-            font-size: 1.2rem;
-            opacity: 0.9;
+        header .tagline {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        section { padding: 60px 0; }
+        section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        section .lead {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        .app-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .app-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(102, 126, 234, 0.15);
+        }
+        .app-icon {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+        .app-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        .app-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+        .app-link {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .about {
+            background: var(--bg-alt);
+        }
+        .about-content {
+            max-width: 720px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .about p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 640px) {
+            header { padding: 60px 0 40px; }
+            header h1 { font-size: 2.2rem; }
+            header .tagline { font-size: 1.05rem; }
+            section { padding: 40px 0; }
+            section h2 { font-size: 1.6rem; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>HarmonyAstroApps</h1>
-        <p>Welcome to HarmonyAstroApps</p>
-    </div>
+    <header>
+        <div class="container">
+            <h1>HarmonyAstroApps</h1>
+            <p class="tagline">Thoughtful iOS apps that make everyday tasks easier &mdash; built for iPhone and iPad.</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Our Apps</h2>
+                <p class="lead">Small, focused apps that do one thing well.</p>
+
+                <div class="apps-grid">
+                    <a href="/voice-calculator/" class="app-card">
+                        <div class="app-icon">&#x1F3A4;</div>
+                        <h3>Voice Calculator</h3>
+                        <p>Hands-free math for iOS. Speak calculations naturally, add tax by voice, export to CSV, and keep a full audit trail. Perfect for cooking, shopping, and when your hands are busy.</p>
+                        <span class="app-link">Learn more &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About HarmonyAstroApps</h2>
+                    <p>HarmonyAstroApps is an independent iOS developer focused on building utility apps that respect your time, your privacy, and your attention.</p>
+                    <p>Every app we ship is designed to do one thing well &mdash; without ads, tracking, or unnecessary complexity. If you have feedback or ideas, we'd love to hear from you.</p>
+                    <p><a href="mailto:harmonyastroapp@gmail.com" style="color: var(--primary); font-weight: 600;">harmonyastroapp@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 HarmonyAstroApps. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="/voice-calculator/">Voice Calculator</a> &middot;
+                <a href="/voice-calculator/privacy.html">Privacy</a> &middot;
+                <a href="/voice-calculator/terms.html">Terms</a> &middot;
+                <a href="mailto:harmonyastroapp@gmail.com">Contact</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
