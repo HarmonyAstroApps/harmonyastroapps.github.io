@@ -1,0 +1,55 @@
+# HarmonyAstroApps
+> Indie iOS developer building thoughtful, focused apps for everyday life.
+
+## About
+HarmonyAstroApps is a small indie iOS development studio dedicated to crafting focused, purposeful apps that solve real everyday problems without unnecessary complexity. Each app is built with care — prioritizing clean design, useful features, and respect for the user's time and privacy. The philosophy is quality over quantity: fewer apps done well, rather than many apps done poorly.
+
+## Apps
+
+### Voice Calculator: Speak & Add
+A hands-free calculator that lets you speak numbers and operations out loud — perfect for cooking, shopping, or any time your hands are busy.
+- App Store: https://apps.apple.com/us/app/voice-calculator-speak-add/id6759246770
+- Website: https://harmonyastroapps.github.io/voice-calculator/
+
+### Voice Clock Time Speaker
+An accessible clock app that announces the time aloud on demand or on a schedule — useful for visually impaired users or anyone who wants audio time updates.
+- App Store: https://apps.apple.com/us/app/voice-clock-time-speaker/id6739522220
+- Website: https://harmonyastroapps.github.io/voice-clock/
+
+### Skymap: Constellation Finder
+A stargazing companion that uses your device's sensors to identify constellations, stars, and celestial objects in real time — just point and explore the night sky.
+- App Store: https://apps.apple.com/us/app/skymap-constellation-finder/id6741057101
+- Website: https://harmonyastroapps.github.io/skymap/
+
+### Cowboy! Quick Shot
+A fast-reflex reaction time game with a classic Wild West theme — draw your pistol faster than your opponent and see how quick your trigger finger really is.
+- App Store: https://apps.apple.com/us/app/cowboy-quick-shot/id6747758240
+- Website: https://harmonyastroapps.github.io/cowboy/
+
+### Batchly – Batch Photo Editor
+A streamlined batch photo editing app that lets you apply adjustments, filters, and transformations to multiple images at once — saving time on repetitive editing tasks.
+- App Store: https://apps.apple.com/us/app/batch-photo-editor-batchly/id6751959442
+- Website: https://harmonyastroapps.github.io/batchly/
+
+### Flight Mode Chat
+An offline chat app that works without an internet connection — great for journaling, drafting messages, or simulating conversations when you're off the grid.
+- App Store: https://apps.apple.com/us/app/flight-mode-chat/id6749311035
+- Website: https://harmonyastroapps.github.io/flight-mode-chat/
+
+### Learn Kanji – JLPT N5 to N1
+A structured kanji learning app covering all JLPT levels from N5 to N1, with stroke order, meanings, readings, and spaced repetition to help you master Japanese characters.
+- App Store: https://apps.apple.com/app/id6747757403
+- Website: https://harmonyastroapps.github.io/learn-kanji/
+
+### Hikers View: Peak Spotter AR
+An augmented reality app for hikers and outdoor enthusiasts that identifies mountain peaks and summits in your camera view using AR overlays.
+- App Store: Coming soon
+- Website: https://harmonyastroapps.github.io/hikers-view/
+
+## Philosophy
+HarmonyAstroApps builds indie iOS apps with a focus on simplicity, accessibility, and user respect. Apps are designed to be focused tools that do one thing well — no bloat, no dark patterns. Where possible, features work offline and without requiring accounts or data collection. Accessibility features like voice output and large text support are first-class considerations, not afterthoughts.
+
+## Contact
+- Email: harmonyastroapp@gmail.com
+- GitHub: https://github.com/HarmonyAstroApps
+- Website: https://harmonyastroapps.github.io/
